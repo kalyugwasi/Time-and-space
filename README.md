@@ -27,13 +27,14 @@ Heuristically estimates the time and space complexities
 Removes old annotations (if any) and adds new ones:
 ```
 
+###📦 **Project Structure**
+```
+├── analyze_complexity.py   # Core script to process and annotate files
+└── .vscode
+    └── tasks.json          # VS Code task definition
+```
+
+
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 Triggered by a custom VS Code task or shortcut
-
-###📦 **Project Structure**
-```
->├── analyze_complexity.py   # Core script to process and annotate files
->└── .vscode
->   └── tasks.json          # VS Code task definition
-```
